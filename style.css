@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_left {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+list-style-type: none;
+}
