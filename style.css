@@ -61,6 +61,7 @@ p {
     padding: 35px 0px;
     border-radius: 5px;
     align-items: center;
+    min-width: 500px;
 }
 
 .action {
@@ -77,4 +78,14 @@ p {
     border-style: solid;
     height: 35px;
     width: 75px;
+}
+
+.copy {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
 }
