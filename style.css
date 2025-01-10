@@ -68,3 +68,30 @@ button {
 ul {
     list-style-type: none;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info_list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
