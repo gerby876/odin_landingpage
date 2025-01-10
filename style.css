@@ -1,5 +1,10 @@
 .navy {
     background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    min-height: 33%;
+    flex-flow: column wrap;
+    justify-content: space-around;
 }
 
 .header {
@@ -12,11 +17,6 @@
     color: #F9FAF8;
 }
 
-.main {
-    font-size: 48px;
-    font-weight: 900;
-}
-
 .head_right {
     display: flex;
     gap: 16px;
@@ -26,6 +26,44 @@
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top_left {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 50px 100px;
+}
+
+.top_right {
+    color: white;
+    justify-content: start;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    width: 100px;
+}
+
+
 
 ul {
     list-style-type: none;
