@@ -1,3 +1,58 @@
+body {
+    margin: 0px;
+}
+
+.navy {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.top_link, .sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top_link {
+    display: flex;
+    gap: 16px;
+    margin-top: 0px;
+}
+
+.header_text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.top_button {
+    background-color: #3882F6;
+    color: white;
+    height: 35px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
 
 ul {
     list-style-type: none;
